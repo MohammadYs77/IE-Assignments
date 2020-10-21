@@ -1,0 +1,29 @@
+p, label, h2 {
+	font-family: "Trebuchet MS";
+}
+
+body, html {
+	height: 100%;
+}
+
+body {
+	overflow: hidden;
+	font-family: "Trebuchet MS";
+	background-image: url('pics/05.jpg');
+	background-position: center;
+	background-size: auto;
+}
+
+.form-control {
+	padding-right: 15%;
+	padding-left: 15%;
+}
+
+.form-group {
+	background-color: white;
+	border-radius: 5px;
+}
+
+.row {
+	padding: 10px;
+}

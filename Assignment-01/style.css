@@ -1,0 +1,82 @@
+h1, p {
+	font-family: "Trebuchet MS";
+	color: white;
+}
+
+#MyButton {
+	width: 120px;
+	height: 35px;
+	font-size: 15px;
+	color: white;
+	background-color: Transparent;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	border-color: white;
+	border-radius: 5px;
+	overflow: hidden;
+	outline:none;
+}
+
+.container-fluid {
+	height: 590px;
+    margin: 10px 10px 10px 10px;
+}
+
+.row {
+    height: 100%;
+}
+
+.col-sm-6 {
+	width: 100%;
+	text-align: center;
+}
+
+.flexbox-container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+
+.flexbox-item {
+	margin: auto;
+}
+
+.footer {
+    height: 140px;
+	padding-top: 6.7%;
+	color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.flexbox-container {
+	display: flex;
+	height: 100%;
+	align-items: stretch;
+	flex-wrap: wrap;
+}
+
+.flexbox-item {
+	text-align: center;
+	align-self: flex-end;
+}
+
+hr {
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	color: white;
+}
+
+body, html {
+	height: 100%;
+}
+
+body {
+	overflow: hidden;
+	font-family: "Trebuchet MS";
+	background-image: url('pics/10.jpg');
+	background-position: center;
+	background-size: auto;
+}
